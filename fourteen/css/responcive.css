@@ -1,0 +1,131 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .hero-detalce h2 {
+        font-size: 39px;
+    }
+    span.tittle {
+        font-size: 37px;
+    }
+    .single-services-item {
+        padding: 10px;
+    }
+    span.left-icon {
+        width: 20%;
+    }
+
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px){
+    .full-header {
+        padding: 0 25px;
+    }
+    .hero-detalce {
+        padding-top: 100px;
+    }
+    .feature-img {
+        margin: 0 20px;
+    }
+    span.left-icon {
+        width: 30%;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .header-bar{
+        display: block;
+    }
+    .offcanvas-manu{
+        display: block;
+    }
+    .main-manu {
+        display: none;
+    }
+    .hero-detalce {
+        padding-top: 200px;
+    }
+    .hero-detalce h2 {
+        font-size: 25px;
+    }
+    a.active {
+        margin-bottom: 20px;
+    }
+    .hero-area {
+        height: 700px;
+    }
+    .hero-detalce h4 {
+        font-size: 20px;
+    }
+    span.tittle {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .first-gallery-left {
+        margin-bottom: 30px;
+    }
+    .second-galley-left {
+        margin-bottom: 50px;
+    }
+    span.number {
+        font-size: 80px;
+    }
+    .testmonial-wrap {
+        width: 100%;
+        padding: 0;
+    }
+    .testmonial-text h2 {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .single-services-item {
+        margin-bottom: 50px;
+    }
+    .feature-img img {
+        display: none;
+    }
+    .all-feature-item {
+        flex-direction: column;
+    }
+    .feature-right-item, .feature-left-item {
+        width: 100%;
+    }
+    span.left-icon {
+        width: 20%;
+    }
+    .single-abut-item {
+        margin: 0 20px 50px 20px;
+    }
+    .cta-area {
+        padding: 70px 0;
+    }
+    .cta-text input[type=email] {
+        margin-bottom: 20px;
+    }
+    .cta-text p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .socila-link li a {
+        margin-bottom: 10px;
+    }
+    .socila-link::before {
+        top: 95px;
+        margin-left: -19px;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+        
+    
+
+}
+
+/* mddiam divice */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
